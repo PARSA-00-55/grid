@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="font-family: arial; user-select: none;">
+    <form action="http://google.co.in">
+        <div align="center">
+            <h1>Employee Interests Survey</h1 >
+            <table style="padding: 1rem;">
+
+                <tr style="padding: 0.5rem;">
+                    <td>Enter your Name:</td>
+                    <td>
+                        <input type="text" placeholder="Enter your name" maxlength="40">
+                    </td>
+                </tr>
+
+                <tr style="padding: 0.5rem;">
+                    <td>Enter your department:</td>
+                    <td>
+                        <input type="text" placeholder="Enter your department">
+                    </td>
+                </tr>
+
+                <tr style="padding: 0.5rem;">
+                    <td>Tell us a little about yourself:</td>
+                    <td>
+                        <textarea name="" id="" cols="30" rows="4"></textarea>
+                    </td>
+                </tr>
+                
+                <tr style="padding: 0.5rem;"> 
+                    <td>Do you exercise at home?</td>
+                    <td>
+                        <input type="radio" name="exe" value="1">yes 
+                        <input type="radio" name="exe" value="2">no
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center" style="padding: 1rem 0rem 0rem 0rem;">
+                        How do you like to read about your favorite topics?
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="checkbox" name="Books">Books
+                        <input type="checkbox" name="Web">Online resources
+                        <input type="checkbox" name="Phone">Phone apps
+                        <input type="checkbox" name="Magazines">Magazines
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="center" style="padding: 1rem 0rem 0rem 0rem;">
+                        What genre of movies do you like?
+                    </td>
+                    <td style="padding: 1rem 0rem 0rem 0rem;" align="center">
+                        <select name="movie" id="">
+                            <option value="1" selected="true">Comedy</option>
+                            <option value="2" >romance</option>
+                            <option value="3" >thriller</option>
+                            <option value="4" >horror</option>
+                            <option value="5" >biopic</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center" colspan="2" style="padding: 1rem;">
+                        <input type="submit" value="Submit form" style="padding: 1rem;" >
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
